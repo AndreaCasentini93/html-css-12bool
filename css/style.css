@@ -1,4 +1,8 @@
 /* COMMON */
+.container .container {
+    margin: 5px;
+}
+
 [class*="col-"] {
     position: relative;
     text-align: center;
