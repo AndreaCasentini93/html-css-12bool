@@ -2,16 +2,76 @@
 body {
     font-family: 'Fredoka One', cursive;
     text-align: center;
+    animation-name: black;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+@keyframes black {
+  
+    from {
+        background-color: rgba(0, 0, 0, 1);
+    }
+    25% {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    75% {
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+    to {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+}
+
+.container {
+    position: relative;
 }
 
 .text {
     position: absolute;
-    top: 45%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 130px;
     text-shadow: 3px 3px 7px #000000;
-    z-index: 2;
+}
+.candle {
+    text-align: center;
+    width: 30px;
+    padding: 0;
+    margin: 0;
+    animation-name: candle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+@keyframes candle {
+  
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    25% {
+        opacity: 0.25;
+        transform: scale(0.25);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(0.5);
+    }
+    75% {
+        opacity: 0.75;
+        transform: scale(0.75);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
 }
 
 [class*="col-"] {
