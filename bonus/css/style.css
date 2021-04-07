@@ -10,6 +10,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 130px;
+    text-shadow: 3px 3px 7px #000000;
     z-index: 2;
 }
 
@@ -55,7 +56,7 @@ body {
     color: #72B566;
 }
 .color-orange {
-    color: ;
+    color: #ED6925;
 }
 .color-blue {
     color: #0763B1;
