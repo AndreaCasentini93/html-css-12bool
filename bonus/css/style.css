@@ -37,7 +37,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 130px;
-    text-shadow: 3px 3px 7px #000000;
+    text-shadow: 4px 4px 0px #000000;
 }
 .candle {
     text-align: center;
