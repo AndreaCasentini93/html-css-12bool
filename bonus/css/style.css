@@ -1,0 +1,54 @@
+/* COMMON */
+.container {
+    height: 100%;
+    min-height: 97.16px;
+}
+
+[class*="col-"] {
+    position: relative;
+    height: 100%;
+    min-height: 97.16px;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #000000
+}
+
+.background-yellow {
+    background-color: #FADA3B;
+}
+.background-red {
+    background-color: #DB1A33;
+}
+.background-green {
+    background-color: #72B566;
+}
+.background-orange {
+    background-color: #ED6925;
+}
+.background-blue {
+    background-color: #0763B1;
+}
+
+.color-yellow {
+    color: #FADA3B;
+}
+.color-red {
+    color: #DB1A33;
+}
+.color-green {
+    color: #72B566;
+}
+.color-orange {
+    color: ;
+}
+.color-blue {
+    color: #0763B1;
+}
