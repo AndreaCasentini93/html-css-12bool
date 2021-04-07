@@ -1,3 +1,42 @@
+/* DEBUG */
+.debug .container {
+    height: 100%;
+    min-height: 200px;
+    border-top: 1px solid #000000;
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+    border-left: 0;
+    background-color: #ffc0cb;
+}
+.debug .container .container {
+    height: 100%;
+    min-height: 200px;
+    border-top: 1px solid #ffffff;
+    border-right: 0;
+    border-bottom: 1px solid #ffffff;
+    border-left: 0;
+    background-color: #f07f80;
+}
+
+.debug [class*="col-"] {
+    height: 100%;
+    min-height: 200px;
+    border-top: 0;
+    border-right: 1px solid #000000;
+    border-bottom: 0;
+    border-left: 1px solid #000000;
+    background-color: #ffc0cb;
+}
+.debug [class*="col-"] [class*="col-"] {
+    height: 100%;
+    min-height: 200px;
+    border-top: 0;
+    border-right: 1px solid #ffffff;
+    border-bottom: 0;
+    border-left: 1px solid #ffffff;
+    background-color: #f07f80;
+}
+
 /* COMMON */
 .container .container {
     margin: 5px;
